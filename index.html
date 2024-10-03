@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator By Shaimaa</title>
+</head>
+<body>
+    <div class="BMI">
+        <h1>BMI Calculator</h1>
+        <form action="form1">
+            <label for="height" style="display:block; text-align: start;" class="lbl">Height(CM):</label>
+            <input type="number" name="ght" id="num1" class="input" style="display:block; text-align: start;">
+            <!-- -------- -->
+            <label for="weight" style="display:block; text-align: start;" class="lbl">weight(KG):</label>
+            <input type="number" name="ght" id="num2" class="input" style="display:block; text-align: start;"><br>
+            <!-- ------ -->
+            <input type="button" class="btn" value="Calculate" onclick="calc(document.getElementById('num1').value , document.getElementById('num2').value)">
+        </form>
+        <p >Your BMI is:</p>
+        <p id="test" class="par"></p>
+        <p id="reso" style="text-align: center;"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- onclick= "form1.textview.value = ' ' " -->
+    <!-- <div class="calc">
+        <form name="form1">
+            <label for="height">
+                <input type="text" name="height" class="height">
+            </label>
+        </form>
+        <form action="form2">
+            <label for="weight">
+                <input type="text" name="weight" class="weight">
+            </label>
+        </form>
+        <form name="form3">
+            <input type="button" value="=" class="btn" style="width: 160px;"  onclick="equal()">
+        </form> -->     
+    <!-- </div> -->
